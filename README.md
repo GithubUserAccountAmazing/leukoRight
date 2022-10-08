@@ -23,13 +23,15 @@ I will be exploring other options to share this as a web application. In the mea
 
 ## todo
 
-1.) come up with a better name for the project.
-2.) finish this readme file.
-3.) find suitable web app host?
-4.) find more cell image datasets/examples?
-5.) create a better model.
-6.) redesign webapp. currently barebones.
+1. come up with a better name for the project.
+2. finish this readme file.
+3. find suitable web app host?
+4. find more cell image datasets/examples?
+5. create a better model.
+6. redesign webapp. currently barebones.
 
+<br>
+<br>
 
 
 
