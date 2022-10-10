@@ -1,6 +1,6 @@
 <br><p align="center"><img src="https://raw.githubusercontent.com/originates/leukoRight/main/leukoright.png?raw=true" alt="leukoRight logo" width="20%"></p>
 <br>
-#### <p align="center">Using a trained Keras model to recognize white blood cells.</p>
+#### <p align="center">a trained Keras model to recognize white blood cells.</p>
 <br> <br>
 
 
@@ -27,8 +27,9 @@ I will be exploring other options to share this as a web application. In the mea
 2. finish this readme file.
 3. find suitable web app host?
 4. find more cell image datasets/examples?
-5. create a better model.
-6. redesign webapp. currently barebones.
+5. create a better model. 
+  - the model is not perfect and there is a few things I would like to do to try to get closer to perfection.
+6. redesign webapp. currently barebones for demonstration purposes.
 
 <br>
 <br>
