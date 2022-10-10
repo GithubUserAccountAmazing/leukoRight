@@ -17,19 +17,19 @@ I will be exploring other options to share this as a web application. In the mea
 
 
 
-<br><p align="center"><img src="https://user-images.githubusercontent.com/105183376/194677173-e56fea44-4639-49a7-b588-43b27ed8db3a.gif?raw=true" alt="leukoRight web example" width="50%"></p>
+<br><p align="center"><img src="https://raw.githubusercontent.com/originates/leukoRight/main/leukoRightWeb.gif?raw=true" alt="leukoRight web example" width="70%"></p>
 
 <br><br><br><br>
 
 ## todo
 
-1. come up with a better name for the project.
+1. come up with a better name for the project?
 2. finish this readme file.
 3. find suitable web app host?
 4. find more cell image datasets/examples?
 5. create a better model. 
   - the model is not perfect and there is a few things I would like to do to try to get closer to perfection.
-6. redesign webapp. currently barebones for demonstration purposes.
+6. <del>redesign webapp. currently barebones for demonstration purposes.</del>
 
 <br>
 <br>
