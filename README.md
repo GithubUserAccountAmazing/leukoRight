@@ -23,23 +23,38 @@ I will be exploring other options to share this as a web application. In the mea
 
 ## todo
 
-1. come up with a better name for the project?
-2. finish this readme file.
-3. find suitable web app host?
-4. find more cell image datasets/examples?
-5. create a better model. 
-  - the model is not perfect and there is a few things I would like to do to try to get closer to perfection.
+
+1. finish this readme file.
+2. find suitable web app host?
+3. find more cell image datasets/examples?
+4. create a better model. 
+  - the model is not perfect (seemingly due to an over representation of neutrophils in the training images). 
+  - I am looking into ways to increase inference accuracy. 
 6. <del>redesign webapp. currently barebones for demonstration purposes.</del>
 
 <br>
 <br>
 
+## The model
 
+the leukoRight model has been trained to differentiate the following WBC types.
+
+- Neutrophil
+- Band Neutrophil
+- Lymphocyte
+- Large (activated) lymphocyte
+- Monocyte
+- Basophil
+- Eosinophil
+- Metamyelocyte
+
+It is also trained to differentiate Artifacts and Bursted Cells.
+
+<br><br>
 
 ## .h5 file instructions 
 <br>
-<img align="right" src="https://user-images.githubusercontent.com/105183376/194649993-fd926e92-3e35-4273-a55f-a0c6592064ea.png?raw=true" width="28%">
-the leukoRight model tar file can be found in /models with the caveat being that because the file is very large (~32mb) it is split into 2 different parts:  
+I wouldn't suggest using the current model for any purpose, however, if interested—the leukoRight model tar file can be found in /models with the caveat being that because the file is very large (~32mb) it is split into 2 different parts:  
 <br><br>
 
 `partaa` and `partab`
