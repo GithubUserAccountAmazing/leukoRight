@@ -27,9 +27,10 @@ I will be exploring other options to share this as a web application. In the mea
 1. finish this readme file.
 2. find suitable web app host?
 3. find more cell image datasets/examples?
-4. create a better model. 
-  - the model is not perfect (seemingly due to an over representation of neutrophils in the training images). 
-  - I am looking into ways to increase inference accuracy. 
+4. <del>create a better model.</del>
+  <del>- the model is not perfect (seemingly due to an over representation of neutrophils in the training images).</del>
+  <del>- I am looking into ways to increase inference accuracy.</del>
+  - new model has been uploaded with increased accuracy.
 6. <del>redesign webapp. currently barebones for demonstration purposes.</del>
 
 <br>
