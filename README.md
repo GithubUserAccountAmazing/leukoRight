@@ -1,37 +1,16 @@
-<br><p align="center"><img src="https://raw.githubusercontent.com/originates/leukoRight/main/leukoright.png?raw=true" alt="leukoRight logo" width="20%"></p>
+
+<br><p align="center"><img src="https://raw.githubusercontent.com/originates/leukoRight/main/leukoright.png?raw=true" alt="leukoRight logo" width="10%"></p>
+<h1 align="center">leukoRight</h1>
+
+
+#### <p align="center">Your personal WBC expert!</p>
+
 <br>
-#### <p align="center">a trained Keras model to recognize white blood cells.</p>
-<br> <br>
+LeukoRight is a trained Keras model and web app that has been trained to recognize white blood cells with ease! It can differentiate between 8 types of WBCs and can also differentiate artifacts and bursted cells. You can drag images of stained white blood cells into the app and after clicking submit, LeukoRight will immediately tell you which WBC it is!
+
+<br><p align="center"><img src="https://raw.githubusercontent.com/originates/leukoRight/main/leukoRightWeb.gif?raw=true" alt="leukoRight web example" width="55%"></p>
 
 
----
-<br>
-<br>
-<br>
-
-<p align="center">
-Heroku has announced that they will no longer offer their free tier after November 28. 
-<br>
-I will be exploring other options to share this as a web application. In the meantime, an example gif can be seen below.
-<br><br></p>
-
-
-
-<br><p align="center"><img src="https://raw.githubusercontent.com/originates/leukoRight/main/leukoRightWeb.gif?raw=true" alt="leukoRight web example" width="70%"></p>
-
-<br><br><br><br>
-
-## todo
-
-
-1. finish this readme file.
-2. find suitable web app host?
-3. find more cell image datasets/examples?
-4. <del>create a better model.</del>
-  <del>- the model is not perfect (seemingly due to an over representation of neutrophils in the training images).</del>
-  <del>- I am looking into ways to increase inference accuracy.</del>
-  - new model has been uploaded with increased accuracy.
-6. <del>redesign webapp. currently barebones for demonstration purposes.</del>
 
 <br>
 <br>
@@ -53,19 +32,27 @@ It is also trained to differentiate Artifacts and Bursted Cells.
 
 <br><br>
 
-## .h5 file instructions 
+## .h5 file instructions
 <br>
-I wouldn't suggest using the current model for any purpose, however, if interested—the leukoRight model tar file can be found in /models with the caveat being that because the file is very large (~32mb) it is split into 2 different parts:  
-<br><br>
 
-`partaa` and `partab`
-
-<br><br>
-To combine these files into a single tar file use the following command
+The **leukoRight model tar file** can be found in `/models`. However, please note that this model is not intended to be used in a real healthcare setting. The file is very large (~32mb) and is split into 2 different parts: `partaa` and `partab`. To combine these files into a single tar file use the following command:
 
 `cat leukoright_model.tar.gz.parta* >leukoright.tar.gz.joined`
 
-<br><br><br><br>
+<br>
 
+## License
+```
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-(in process)
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+```
